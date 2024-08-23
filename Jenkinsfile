@@ -15,9 +15,10 @@ pipeline {
         }
         stages {
           stage ('deploy') {
-            stps {
+            steps {
               echo "Deply is going on"
             }
           }
     }
 }
+    }
